@@ -36,4 +36,6 @@ Will output:
   // An error was not thrown for location as it is an optional field.
 ```
   
-Run the tests ```make test```
+Run the tests ```make test```  
+  
+[![Build Status](https://secure.travis-ci.org/bradleyg/selective.png)](http://travis-ci.org/bradleyg/selective)
