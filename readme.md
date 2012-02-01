@@ -13,7 +13,7 @@ var selective = require('selective');
 
 var params = {
   name: 'bradley',
-  email: 'bradley.griffiths@gmail.com',
+  email: 'bradley@example.com',
   random: 'random param'
 }
 
