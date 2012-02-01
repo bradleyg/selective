@@ -1,0 +1,15 @@
+{
+  "name": "selective",
+  "description": "Select and validate dynamic parameters via predefined options",
+  "version": "0.1",
+  "author": "Bradley Griffiths <bradley.griffiths@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/bradleyg/selective.git"
+  },
+  "main": "./index.js",
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "engines": { "node": ">= 6.0" }
+}
