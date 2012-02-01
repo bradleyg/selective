@@ -35,3 +35,5 @@ Will output:
   
   // An error was not thrown for location as it is an optional field.
 ```
+  
+Run the tests ```make test```
