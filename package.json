@@ -9,6 +9,7 @@
   },
   "main": "./index.js",
   "devDependencies": {
+    "vows": "~0.6.0",
     "mocha": "*",
     "should": "*"
   },
@@ -17,5 +18,17 @@
   },
   "engines": {
     "node": ">= 0.6.0"
+  },
+  "dependencies": {
+    "moment": "*",
+    "async": "*",
+    "request": "*",
+    "prompt": "*",
+    "winston": "*",
+    "eyes": "*",
+    "optimist": "*",
+    "nconf": "*",
+    "semver": "*",
+    "pkginfo": "*"
   }
 }
