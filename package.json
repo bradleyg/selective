@@ -1,7 +1,7 @@
 {
   "name": "selective",
   "description": "Select and validate dynamic parameters via predefined options",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Bradley Griffiths <bradley.griffiths@gmail.com>",
   "repository": {
     "type": "git",
