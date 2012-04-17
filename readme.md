@@ -18,17 +18,13 @@ var params = {
 }
 
 selective.select(params, ['#name', '#email', '#password', '*location', 'phone'], function(err, selected){
-  if(err) {
-    console.log(err)
-  }
-  else {
-    console.log(selected);  
-  }  
+  if(err) console.log(err)
+  else console.log(selected);
 });
 ```
 Will output:
 
-```json
+```
 [ { field: 'password', type: 'Missing Field' },  // 'password' is part of a group with a param sent (name).
   { field: 'phone', type: 'Missing Field' },     // 'phone' is a required field.
   { field: 'random', type: 'Invalid Field' } ]   // 'random' is an undefined option.  

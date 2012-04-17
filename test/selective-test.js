@@ -1,5 +1,5 @@
 var should = require('should');
-var selective = require('../lib/selective');
+var selective = require('../index');
 
 describe('selective', function(){
 
